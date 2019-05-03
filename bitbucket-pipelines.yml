@@ -12,6 +12,7 @@ pipelines:
           #- apt-get update -qq
           #- apt-get install cmake -y
           #  Alternatively you could install a CMake 3.2.2 version through PPA repository. 
+          - add-apt-repository ppa:ubuntu-toolchain-r/test
           - apt-get update -qq
           - apt-get install software-properties-common -y
           # Add PPA repository.
