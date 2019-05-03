@@ -12,9 +12,9 @@ pipelines:
           #- apt-get update -qq
           #- apt-get install cmake -y
           #  Alternatively you could install a CMake 3.2.2 version through PPA repository. 
-          - add-apt-repository ppa:jonathonf/gcc-8.0
+          - add-apt-repository ppa:jonathonf/gcc-7.0
           - apt-get update -qq
-          - apt-get install gcc-8 
+          - apt-get install gcc-7 
           - apt-get update -qq
           - apt-get install software-properties-common -y
           # Add PPA repository.
